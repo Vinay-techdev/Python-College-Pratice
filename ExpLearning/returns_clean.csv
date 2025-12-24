@@ -1,0 +1,4 @@
+ReturnID,OrderID,Reason,Amount,RefundMode
+R001,O101,Damaged,500,UPI
+R004,O104,Defective,450,WALLET
+R005,O105,Size Issue,250,UPI
