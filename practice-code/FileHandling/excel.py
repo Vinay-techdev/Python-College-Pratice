@@ -53,7 +53,7 @@ for i, row in enumerate(ws.iter_rows(min_row= 2, max_col= 3), start= 2):
 
 wb.save('Sample_Sales_Data.xlsx') 
 
-#? Adding new rows int worksheet
+#? Adding new rows into worksheet
 from openpyxl import load_workbook
 wb = load_workbook('Sample_Sales_Data.xlsx')
 ws = wb.active
