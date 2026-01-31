@@ -85,6 +85,7 @@ anchors = soup.find_all('a')
 print("\n achars Tags:")
 for a in anchors:
     print(a.get_text(strip=True))# strip=True removes extra spaces
+    print(a.get("href"))# Extract hyperlinks from each anchors tag
 
 #? find_all('p') -> only paragraph tag
 from bs4 import BeautifulSoup
